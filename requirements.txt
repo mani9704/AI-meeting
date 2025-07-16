@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+aiohttp
+openai
+whisper
+sentence-transformers
+faiss-cpu
+python-multipart
