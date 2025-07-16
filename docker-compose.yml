@@ -1,0 +1,14 @@
+
+version: "3.9"
+
+services:
+  ai-meeting-assistant:
+    build: .
+    container_name: ai_meeting_assistant
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    restart: unless-stopped
