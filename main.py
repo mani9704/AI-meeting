@@ -16,6 +16,9 @@ import numpy as np
 import aiohttp
 
 app = FastAPI()
+@app.get("/")
+def home():
+    return {"message": "AI Meeting Assistant is up and running"}
 
 # OAuth2 Login (simplified for demo)
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
