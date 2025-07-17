@@ -2,7 +2,7 @@ fastapi
 uvicorn
 aiohttp
 openai
-whisper
+openai-whisper
 sentence-transformers
 faiss-cpu
 python-multipart
